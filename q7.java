@@ -5,7 +5,7 @@ class q7 {
     public static void main(String[] args) throws IOException {
         Scanner sc = new Scanner(System.in);
         // FileReader r = new FileReader("/home/sai/hawa/./std.txt");
-        FileWriter w = new FileWriter("C:\\Users\\there\\OneDrive\\Desktop\\demo.txt");
+        FileWriter w = new FileWriter("demo.txt");
         System.out.println("Enter the no of student");
         int numOfStudents = sc.nextInt();
         sc.nextLine();
@@ -30,7 +30,7 @@ class q7 {
         BufferedReader reader;
 
         try {
-            reader = new BufferedReader(new FileReader("C:\\Users\\there\\OneDrive\\Desktop\\demo.txt"));
+            reader = new BufferedReader(new FileReader("demo.txt"));
             String line = reader.readLine();
 
             while (line != null) {

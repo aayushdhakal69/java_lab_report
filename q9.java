@@ -7,7 +7,7 @@ public class q9 {
     public static void main(String[] args) {
         try (Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/company", "root", "")) {
             // Input employee information
-            for (int i = 1; i <= 5; i++) {
+            for (int i = 1; i <= 2; i++) {
                 String ename = System.console().readLine("Enter name of employee " + i + ": ");
                 double salary = Double.parseDouble(System.console().readLine("Enter salary of employee " + i + ": "));
                 String department = System.console().readLine("Enter department of employee " + i + ": ");
